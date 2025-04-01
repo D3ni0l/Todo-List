@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.todo.list.entities.Tarefas;
 
-@Repository
+@Repository // define a interface como repository
 public interface TarefaRepository extends JpaRepository <Tarefas, Long> {
 
 }

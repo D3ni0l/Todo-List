@@ -13,8 +13,8 @@ import jakarta.persistence.Id;
 
 public class TarefaDTO {
 
-	@Id
-	@GeneratedValue( strategy = GenerationType.IDENTITY)
+	@Id // define o atributo como ID
+	@GeneratedValue( strategy = GenerationType.IDENTITY) //gera automaticamente um número unico para id
 	private Long id;
 	private String descricao;
 	private String setor;

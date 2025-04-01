@@ -10,7 +10,7 @@ import com.todo.list.repositories.UsuarioRepository;
 @Service // define a classe como service
 public class UsuarioService {
 
-	@Autowired
+	@Autowired // permite que o Spring crie e forneça automaticamente instâncias de classes
 	UsuarioRepository usuarioRepository;
 	
 	public UsuarioDTO salvar(UsuarioDTO dto) {
